@@ -9,7 +9,7 @@ Typically, the Swift Standard Library uses the `libicu` library to implement som
 1. Declare dependency on this package in your `Package.swift` file:
 
     ```Swift
-    .package(url: "https://github.com/swift-embedded/UnicodeSupport.git", .branch("master")),
+    .package(url: "https://github.com/swift-embedded/unicode-support.git", .branch("master")),
     ```
 
 2. Add `"SimpleUnicodeSupport"` to the `dependencies: [...]` array of your application target.
