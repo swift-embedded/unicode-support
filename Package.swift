@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "UnicodeSupport",
+    name: "unicode-support",
     products: [
         .library(name: "SimpleUnicodeSupport", targets: ["SimpleUnicodeSupport"]),
     ],
